@@ -1,0 +1,127 @@
+<link rel="stylesheet" type="text/css" href="visa.css">
+
+<!DOCTYPE html>
+<html lang="mas">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> form </title>
+</head>
+<body>
+	<div class="bg-img1">
+	  <div class="topnav">
+      <a href="home.html">Home</a>
+      <a href="info.html">Info</a>
+      <a href="visa-container.html">Visa Request</a>
+       <a href="visa-details.html">Visa Details</a>
+      <a href="visa-content-form.html">Visa Form</a>
+      <a href="payment details.html">Payment</a>
+     <a href="contact Us.html">Contact Us</a></div>
+
+<div class="visa-content-form">
+		<h1 class="third">VISA FORM</h1>
+		<form action="" method="post">
+	  <div class="visa-group">
+		    <label class="visa-label">Name</label>
+		   <input type="text" class="user-input" name="name"  value="" required  pattern="[A-Za-z-0-9]+\s[A-Za-z-'0-9]+" aria-required="true" aria-describedby="name-format"></div><br>
+
+		<div  class="visa-group">
+            <label class="visa-label">Email</label>
+            <input type="email"  class="user-input" name="email" value="" required aria-required="true">
+        </div><br>
+
+	 <div class="visa-group">
+			<label class="visa-label">Country Name</label>
+		  <input type="text" name="country" class="user-input" value="" required></div><br>
+
+	<div class="visa-group">
+		<label class="visa-label">Phone Number</label>
+		<input type="tel" class="user-input" name="number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" value="" required></div><br>
+
+		
+
+	<div class="visa-group">
+		<label class="visa-label">Number of Persons</label>
+		<input type="number" class="user-input" name="persons" value="" required></div><br>
+
+	<div class="visa-group">
+		<label class="visa-label">Travel Month</label>
+		<select name="travelMonth" class=" user-input ">
+
+			<option value="">Select month</option>
+			<option value="January">January</option>
+			<option value="February">February</option>
+			<option value="March">March</option>
+			<option value="April">April</option>
+			<option value="May">May</option>
+			<option value="June">June</option>
+			<option value="July">July</option>
+			<option value="August">August</option>
+			<option value="September">September</option>
+			<option value="October">October</option>
+			<option value="November">November</option>
+			<option value="December">December</option></select></div><br>
+
+	<div class="visa-group">
+		<label class="visa-label">Work Type</label>
+			<select name="workType" class=" user-input">
+
+			<option value="">Select</option>
+			<option value="Salaried">Salaried</option>
+			<option value="SelfEmployed">Self Employed</option>
+  </select></div><br>
+     
+     <div class="visa-group">
+     	<p class="visa-label">Got Vaccination &nbsp;&nbsp;
+         <input type="radio" >
+     	<label for="Yes">Yes</label> &nbsp; 
+     	<input type="radio">
+     	<label for="No">No</label></p>
+     </div><br>
+
+     <div class="visa-group">
+     		<label class="visa-label">Vaccination Certificate</label>
+     	<input type="file"  name="filename">
+	    <input type="submit">
+	 </div><br>
+
+     <div class="visa-group">
+     	<label class="visa-label">Original Passport</label>&nbsp;&nbsp;
+     	<input type="file"  name="filename">
+	    <input type="submit">
+	</div><br>
+ 
+
+      <div class="visa-group">
+     	<label class="visa-label"> Passport-size Photo</label>
+     	<input type="file"  name="filename">
+	    <input type="submit">
+	</div><br>
+
+	 <div class="visa-group">
+     	<label class="visa-label">Proof of Residence</label>
+     	<input type="file"  name="filename">
+	    <input type="submit">
+	</div><br>
+   
+   <div class="visa-group">
+     	<label class="visa-label">Proof of Profession</label>
+     	<input type="file"  name="filename">
+	    <input type="submit">
+	</div><br>
+
+	 <div class="submit">
+            <input type="submit" value="Submit">
+        </div></form></div></div>
+     </body>
+     </html>
+
+   <center>
+        
+		<button onclick="location.href='visa-details.html'"> Previous  </button>  &nbsp; 
+		
+                <button onclick="location.href='payment details.html'"> Next </button> </center>
+
+			
+
+
+

@@ -1,0 +1,340 @@
+
+
+ *{
+  margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+
+.wel{
+   justify-content:center;
+   display: flex;
+   color: white;
+   font-family: cursive;
+}
+
+.second{
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-family: cursive;
+}
+
+.third{
+    justify-content: center;
+    display: flex;
+    font-family: cursive;
+}
+
+.visa-label{
+    font-size: 20px;
+}
+
+.user-input{
+   width: 70%;
+   margin-bottom: 20px;
+   padding: 12px;
+   border: 1px solid grey;
+   border-radius: 3px;
+}
+
+.line{
+    border-radius: 15px;
+    color: blue;
+    padding: 12px;
+}
+
+
+.info  h2{
+    color: grey;
+    font-family: cursive;
+}
+.info h3{
+    color: black;
+    font-family:sans-serif;
+}
+ .info{
+    background-image: url(https://images.unsplash.com/photo-1528459584353-5297db1a9c01?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGxhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80);
+    
+ }
+ .info button{
+    border-radius: 15px;
+    color: maroon;
+ }
+
+   .visa-container{
+   		background-image: url("https://firebasestorage.googleapis.com/v0/b/touronapp-248e4.appspot.com/o/visa1.jpg?alt=media&token=d54c27e3-8b11-4a6a-a6f9-84d81dba21d3");
+   		background-size: cover;
+   	    background-position: 50%;
+     	background-position-x: 50%;
+    	background-position-y: center;
+    	object-position: center;
+   		object-fit: cover;
+   		width: 100%;
+   		height: 100%;
+   		position:relative;
+   		align-items: center;
+   		display: flex;
+   	    flex-direction:column;
+   		justify-content: center;
+   		align-items: center;
+   		color: white;
+         
+     }
+
+
+ .visa-container h1{
+    font-family: "newyorklargeblack";
+    font-size: 60px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+ } 
+
+ .visa-details{
+    padding: 40px;
+ }
+
+ .visa-container button:hover{
+    background-color: grey;
+  }
+
+.visa-details-categories {
+      display: flex;
+      justify-content: center;
+      height: 60px;
+      font-family: "sans-serif";
+     }
+
+  .head1{
+        border-radius: 30px;
+        transition: 0.5s;
+        border: 1.5px solid black;
+        color: black;
+        font-size: 20px;
+        background-color:grey;
+        padding: 20px;
+      margin-right: 10px;
+     }
+      
+  .head1:hover{
+         background-color: maroon;
+
+      }
+  .head2{
+        border-radius: 30px;
+        transition: 0.5s;
+        border: 1.5px solid black;
+        color: black;
+        font-size: 20px;
+        background-color: grey;
+        padding: 20px;
+        margin-right: 10px;
+     }
+
+  .head2:hover{
+      background-color: maroon;
+     }
+
+
+  .visa-country{
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 30px;
+     }
+
+  .visa-country-image{
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+        margin-right: 20px;
+     }
+
+    
+    
+ .visa-name{
+        color: darkorange;
+        font-family: cursive;
+    }
+    
+    .visa-countryName{
+        font-family: cursive;
+    }
+    .visa-countryName, .visa-name{
+        padding: 0px 10px;
+        font-size: 28px;
+    }
+
+   .visa-content{
+        display: flex;
+        justify-content: space-evenly;
+     }
+
+  .visa-country-search .form-control{
+	height: 50px;
+	border-radius: 10px;
+	padding: 0 200px 0 10px ;
+	position: relative ;
+	z-index: 1;}
+
+   .form-control{
+
+    display: block;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 200px 0px 10px;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-clip: padding-box;
+    border: 1px solid grey;
+    transition: border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+
+}
+
+.visa-container button{
+    margin: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    position: relative;
+    z-index: 1;
+   
+} 
+
+  
+   
+  .questionss{
+     background-color:white;
+     width: 1000px ;
+     margin-bottom: 15px;
+     border-radius: 10px;
+     box-shadow: 0 0 20px 0;
+
+
+     }
+
+     .visa-questionss{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+        align-items: center;
+        background-color: #f7fafc!important;
+
+     }
+    .questionss h1{
+    	font-size: 20px;
+    	color: #333945;
+    	padding: 20px;
+    	font-family: "Times New Roman";
+
+    }
+    .que-icon{
+        margin-right: 20px;
+    }
+
+
+
+
+    .questionss p{
+        font-size: 18px;
+        margin-top: 5px;
+        color: black;
+        padding: 20px;
+        font-family:"sans-serif";
+    }
+
+   .icon-container{
+   margin-bottom: 20px;
+   padding: 7px 0;
+   font-size: 24px;
+   }
+
+    #cname,#ccnum,#expmonth,#expyear,#cvv{
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    
+  }
+
+  
+
+  .paylabel{
+    font-family: cursive;
+    font-size: 25px;
+  }
+
+  /* The navbar */
+.topnav {
+  overflow:hidden;
+         
+         }
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  font-family: cursive;
+  
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/Airport-free-hd-wallpapers.jpg");
+
+  min-height: 700px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.bg-img1{
+    background-image: url("https://media.istockphoto.com/vectors/visa-application-vector-vector-id896863552");
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative;
+    min-height: 500px;
+}
+
+.bg-img2{
+     min-height: 900px;
+     background-image: url("https://img.freepik.com/free-photo/cashless-society-credit-card-smartphone-with-transaction-pink-background-money-saving-online-payment-concept-3d-render-illustration_73903-887.jpg?size=626&ext=jpg");
+     background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    position: relative;
+
+}
+
+/* Position the navbar container inside the image */
+.first{
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+       
+
+     
